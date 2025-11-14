@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 
 // Основной компонент приложения
-const WeinbauRechnerApp = () => {
+const PercentSRCalc = () => {
   // Состояния для входных данных
   const [percentSR, setPercentSR] = useState(""); // Соответствует D2: Желаемый % SR
   const [literWein, setLiterWein] = useState(""); // Соответствует F2: Liter Wein
@@ -162,4 +162,4 @@ const WeinbauRechnerApp = () => {
     </div>
   );
 };
-export default WeinbauRechnerApp;
+export default PercentSRCalc;

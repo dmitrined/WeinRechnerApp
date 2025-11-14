@@ -1,15 +1,15 @@
 
 import type { JSX } from 'react'
 import './App.css'
-import WeinbauRechnerApp from './components/WeinbauRechnerApp/WeinbauRechnerApp'
 import AlcCalculation from './components/AlcCalculation/AlcCalculation'
+import PercentSRCalc from './components/PercentSRCalc/PercentSRCalc'
 
 function App(): JSX.Element{
   
 
   return (
     <div>
-      <WeinbauRechnerApp/>
+      <PercentSRCalc/>
       <AlcCalculation/>
     </div>
   )
